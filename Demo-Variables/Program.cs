@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 
 namespace Demo_Variables
 {
@@ -21,6 +22,17 @@ namespace Demo_Variables
 
             //Une constante est une variable (membre ou locale) qui doit être initialisée et dont la valeur ne change jamais!
             const string MEILLEUR_PROF = "Samuel";
+
+            //Utilisation du DateTime : 
+            //Soit 3 paramètres : année, mois, jour
+            //Soit 6 paramètres : année, mois jour, heure, minute et seconde
+            DateTime naissance_du_meilleur_prof = new DateTime(1987,9,27,10,35,22);
+            DateTime aujourdhui = DateTime.Now;
+            Console.WriteLine(aujourdhui);
+            Thread.Sleep(5000); // Thread provient de "using System.Threading;" permettant la gestion du multi-tâche
+            Console.WriteLine(aujourdhui);
+            aujourdhui = DateTime.Now;  //DateTime.Now récupère la date actuelle de votre machine, et doit être réaffecté continuellement
+            Console.WriteLine(aujourdhui);
 
             /*
              DIFFÉRENTS FORMAT DE NOMMAGE :
