@@ -26,7 +26,7 @@ namespace Demo_Variables
             //Utilisation du DateTime : 
             //Soit 3 paramètres : année, mois, jour
             //Soit 6 paramètres : année, mois jour, heure, minute et seconde
-            DateTime naissance_du_meilleur_prof = new DateTime(1987,9,27,10,35,22);
+            DateTime naissance_du_meilleur_prof = new DateTime(1987, 9, 27, 10, 35, 22);
             DateTime aujourdhui = DateTime.Now;
             Console.WriteLine(aujourdhui);
             Thread.Sleep(5000); // Thread provient de "using System.Threading;" permettant la gestion du multi-tâche
@@ -46,6 +46,14 @@ namespace Demo_Variables
              unCaractere => OK
              1caractere => KO
              */
+
+            //Type référentiel : string ou object peuvent avoir un Null
+
+            string message = null;
+            object o = null;
+
+            //Type structurel : les 14 type structurel doivent avoir le terme Nullable<...> ou le ? pour accepter la valeur null
+            int? i = null;
         }
     }
 }

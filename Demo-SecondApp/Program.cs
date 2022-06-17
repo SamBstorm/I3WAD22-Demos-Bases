@@ -10,13 +10,16 @@ namespace Demo_SecondApp
             string name = Console.ReadLine();
             Console.Clear();
             Console.WriteLine();
-            Console.WriteLine("Et quel est votre âge ?");
-            string age = Console.ReadLine();
+            Console.WriteLine("En quel année êtes-vous né ?");
+            string anneeNaissance = Console.ReadLine();
+            int annee;
+            bool isConverted = int.TryParse(anneeNaissance, out annee);
             Console.Clear();
             //Console.Write("J'ai ");
             //Console.Write(34);
             //Console.Write(" ans!");
-            Console.Write("Bonjour {0}, vous avez {1} ans!", name, age);
+            //Console.Write("Bonjour {0}, vous avez {1} ans!", name, age);
+            Console.Write($"Bonjour {name}, vous avez {2022- annee} ans!");
         }
     }
 }
