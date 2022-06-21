@@ -7,15 +7,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo-SecondApp", "Demo-Seco
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo-Variables", "Demo-Variables\Demo-Variables.csproj", "{577BF67C-128C-4A65-B1A4-0C71A9A7DF1F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demos-Condition_01", "Demos-Condition_01\Demos-Condition_01.csproj", "{EB5613E8-31CB-43A3-82B8-2D2BACA8F24F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demos-Condition_01", "Demos-Condition_01\Demos-Condition_01.csproj", "{EB5613E8-31CB-43A3-82B8-2D2BACA8F24F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-Condition_02", "Demo-Condition_02\Demo-Condition_02.csproj", "{328FC93D-A6BD-4916-BBA1-F23E01FBD2A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo-Condition_02", "Demo-Condition_02\Demo-Condition_02.csproj", "{328FC93D-A6BD-4916-BBA1-F23E01FBD2A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-IncreDecrementation", "Demo-IncreDecrementation\Demo-IncreDecrementation.csproj", "{E647B7D4-A36E-4C99-B722-A4C80765A90E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo-IncreDecrementation", "Demo-IncreDecrementation\Demo-IncreDecrementation.csproj", "{E647B7D4-A36E-4C99-B722-A4C80765A90E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-Ternaire", "Demo-Ternaire\Demo-Ternaire.csproj", "{1A952D67-ACAF-4B8B-986B-8C6C722F321A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo-Ternaire", "Demo-Ternaire\Demo-Ternaire.csproj", "{1A952D67-ACAF-4B8B-986B-8C6C722F321A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-Coalesce", "Demo-Coalesce\Demo-Coalesce.csproj", "{EDC56641-79D8-40AB-A3C6-2715027B2E1B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo-Coalesce", "Demo-Coalesce\Demo-Coalesce.csproj", "{EDC56641-79D8-40AB-A3C6-2715027B2E1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-Substring", "Demo-Substring\Demo-Substring.csproj", "{99BF3659-7796-4788-95FE-7F66406A6DCC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{EDC56641-79D8-40AB-A3C6-2715027B2E1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDC56641-79D8-40AB-A3C6-2715027B2E1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDC56641-79D8-40AB-A3C6-2715027B2E1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99BF3659-7796-4788-95FE-7F66406A6DCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99BF3659-7796-4788-95FE-7F66406A6DCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99BF3659-7796-4788-95FE-7F66406A6DCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99BF3659-7796-4788-95FE-7F66406A6DCC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
