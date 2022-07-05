@@ -21,7 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo-Substring", "Demo-Subs
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo-Boucles", "Demo-Boucles\Demo-Boucles.csproj", "{A2DB34B8-7CE1-43EA-BDA1-E0AE01AF9F39}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-Tableau", "Demo-Tableau\Demo-Tableau.csproj", "{FF303588-44BD-4246-BC33-9C958F9191C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo-Tableau", "Demo-Tableau\Demo-Tableau.csproj", "{FF303588-44BD-4246-BC33-9C958F9191C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-Structures", "Demo-Structures\Demo-Structures.csproj", "{ACB9758F-E231-4A6A-9FDE-303B46E1D546}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{FF303588-44BD-4246-BC33-9C958F9191C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF303588-44BD-4246-BC33-9C958F9191C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF303588-44BD-4246-BC33-9C958F9191C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACB9758F-E231-4A6A-9FDE-303B46E1D546}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACB9758F-E231-4A6A-9FDE-303B46E1D546}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACB9758F-E231-4A6A-9FDE-303B46E1D546}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACB9758F-E231-4A6A-9FDE-303B46E1D546}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

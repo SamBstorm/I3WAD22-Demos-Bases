@@ -58,8 +58,6 @@ namespace Demo_Tableau
 
             //Dire en Français que mon jour préféré est vendredi, car tout est permis...
             Console.WriteLine($"J'aime le {jourSemaineMultiFormat[2,0,4]}, car tout est permis!");
-
-            Dictionary<string, bool>
         }
     }
 }
