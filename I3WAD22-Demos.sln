@@ -23,9 +23,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo-Boucles", "Demo-Boucle
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo-Tableau", "Demo-Tableau\Demo-Tableau.csproj", "{FF303588-44BD-4246-BC33-9C958F9191C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-Structures", "Demo-Structures\Demo-Structures.csproj", "{ACB9758F-E231-4A6A-9FDE-303B46E1D546}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo-Structures", "Demo-Structures\Demo-Structures.csproj", "{ACB9758F-E231-4A6A-9FDE-303B46E1D546}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-Methodes", "Demo-Methodes\Demo-Methodes.csproj", "{C65D332D-173D-4E94-A94E-97272E951BD1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo-Methodes", "Demo-Methodes\Demo-Methodes.csproj", "{C65D332D-173D-4E94-A94E-97272E951BD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-Recursive", "Demo-Recursive\Demo-Recursive.csproj", "{574AB042-B207-4514-BDD2-24E7BE0C2184}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{C65D332D-173D-4E94-A94E-97272E951BD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C65D332D-173D-4E94-A94E-97272E951BD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C65D332D-173D-4E94-A94E-97272E951BD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{574AB042-B207-4514-BDD2-24E7BE0C2184}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{574AB042-B207-4514-BDD2-24E7BE0C2184}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{574AB042-B207-4514-BDD2-24E7BE0C2184}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{574AB042-B207-4514-BDD2-24E7BE0C2184}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
